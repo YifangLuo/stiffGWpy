@@ -7,9 +7,9 @@ import numpy as np
 from numpy import concatenate as cat
 from scipy import interpolate, integrate
 
-from global_param import *
-from functions import int_FD, solve_SGWB
-from LCDM_stiff_Neff import LCDM_SN
+from .global_param import *
+from .functions import int_FD, solve_SGWB
+from .LCDM_stiff_Neff import LCDM_SN
 
 
 class LCDM_SG(LCDM_SN):

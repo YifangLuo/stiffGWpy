@@ -8,8 +8,8 @@ from numpy import concatenate as cat
 #from scipy import interpolate
 from pathlib import Path
 
-from global_param import *
-from functions import int_FD
+from .global_param import *
+from .functions import int_FD
 
 
 class LCDM_SN:

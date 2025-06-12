@@ -4,7 +4,7 @@ from scipy import interpolate
 from astropy.cosmology import Planck18 as cosmo
 from astropy import constants as const
 import astropy.units as u
-from functions import int_FD
+from .functions import int_FD
 
 #######   Constants. Do not change.   #######
 
